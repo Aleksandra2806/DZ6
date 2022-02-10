@@ -1,0 +1,79 @@
+table.chess {
+    border-collapse: collapse;
+}
+table.chess td {
+    width: 50px;
+    height: 50px;
+    border: solid gray 1px;
+}
+.chess td:first-child {
+    background-color: aquamarine;   
+    width: 20px;
+}
+.chess td:last-child {
+    background-color: aquamarine;
+    width: 20px;
+} 
+.chess tr:first-child td{
+    background-color: aquamarine;
+    height: 20px;
+} 
+.chess tr:last-child td {
+    background-color: aquamarine;
+    height: 20px;
+}
+.one-line {
+    background-color: aquamarine;
+}
+.ten-line {
+    background-color: aquamarine;
+}
+.two-line td:nth-of-type(odd) {
+    background-color: black;
+}
+.two-line td:first-child {
+    background-color: aquamarine;
+}
+.three-line td:nth-of-type(even) {
+    background-color: black;  
+}
+.three-line td:last-child {
+    background-color: aquamarine;  
+}
+.four-line td:nth-of-type(odd) {
+    background-color: black;
+}
+.four-line td:first-child {
+    background-color: aquamarine;
+}
+.five-line td:nth-of-type(even) {
+    background-color: black;
+}
+.five-line td:last-child {
+    background-color: aquamarine;  
+}
+.six-line td:nth-of-type(odd) {
+    background-color: black;
+}
+.six-line td:first-child {
+    background-color: aquamarine;
+}
+.seven-line td:nth-of-type(even) {
+    background-color: black;
+}
+.seven-line td:last-child {
+    background-color: aquamarine;  
+}
+.eight-line td:nth-of-type(odd) {
+    background-color: black;
+}
+.eight-line td:first-child {
+    background-color: aquamarine;
+}
+.nine-line td:nth-of-type(even) {
+    background-color: black;
+}
+.nine-line td:last-child {
+    background-color: aquamarine;
+}
+

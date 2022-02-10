@@ -1,0 +1,49 @@
+a {
+    color: green;
+}
+a:hover {
+    color:red;   
+}
+.one-version {
+    margin: 10px;
+}
+.one-version a + a {
+    border-left: 3px solid red;
+    padding:0 10px 0 10px;
+}
+.two-version {
+    margin: 10px;
+}
+.two-version>a {
+    border-right: 3px solid red;
+    padding:0 10px 0 10px;
+}
+.two-version>a:last-child {
+    border:none;
+}
+.three-version {
+    margin: 10px;
+}
+.three-version [target]::before {
+	content: "|";
+    color: red;
+    padding:0 11px 0 11px;
+    font-weight: 700;
+    font-size: 20;
+}
+.three-version [target]:first-child::before {
+    display:none;
+}
+.four-version {
+    margin: 10px;
+}
+.four-version [href^="https://"]::after {
+    content: "|";
+    color: red;
+    padding:0 11px 0 11px;
+    font-weight: 700;
+    font-size: 20;
+}
+.four-version [href^="https://"]:last-child::after {
+    display:none;
+}
