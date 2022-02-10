@@ -15,11 +15,9 @@ table.chess td {
     width: 20px;
 } 
 .chess tr:first-child td{
-    background-color: aquamarine;
     height: 20px;
 } 
 .chess tr:last-child td {
-    background-color: aquamarine;
     height: 20px;
 }
 .one-line {
