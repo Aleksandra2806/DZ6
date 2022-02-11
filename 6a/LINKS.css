@@ -14,11 +14,11 @@ a:hover {
 .two-version {
     margin: 10px;
 }
-.two-version>a {
+.two-version > a {
     border-right: 3px solid red;
     padding:0 10px 0 10px;
 }
-.two-version>a:last-child {
+.two-version > a:last-child {
     border:none;
 }
 .three-version {
